@@ -10,19 +10,26 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: xx-large;
             font-weight: bold;
+            text-align: center;
         }
         .auto-style2 {
             font-family: Arial, Helvetica, sans-serif;
             font-size: large;
+            text-align: center;
         }
-    </style>
+        </style>
 </head>
-<body style="background-color: #D3EAFE">
+<body style="background-color: #FFFFFF">
     <form id="form1" runat="server">
         <p class="auto-style1" style="margin-left: 20px; margin-top: 40px">
             Welcome to the Opsgility Traffic Manager Web App</p>
         <p class="auto-style2" style="margin-left: 20px; margin-top: 40px">
-            &nbsp;<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            &nbsp;<asp:Label ID="Label1" runat="server" Text="Label" OnPreRender="Label1_PreRender" style="font-size: x-large"></asp:Label>
+        </p>
+        <p class="auto-style2" style="margin-left: 20px; margin-top: 40px">
+            &nbsp;</p>
+        <p class="auto-style2" style="margin-left: 20px; margin-top: 40px">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/opsgility-logo.png" />
         </p>
     </form>
 </body>
