@@ -61,6 +61,7 @@
             <br />
             <br />
             <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/" style="font-size: large; font-family: Arial, Helvetica, sans-serif">Go to home page</asp:HyperLink>
             <br />
             <br />
             <br />

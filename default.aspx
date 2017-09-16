@@ -27,7 +27,8 @@
             &nbsp;<asp:Label ID="Label1" runat="server" Text="Label" OnPreRender="Label1_PreRender" style="font-size: x-large"></asp:Label>
         </p>
         <p class="auto-style2" style="margin-left: 20px; margin-top: 40px">
-            &nbsp;</p>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/healthcheck.aspx">Go to health check page</asp:HyperLink>
+        </p>
         <p class="auto-style2" style="margin-left: 20px; margin-top: 40px">
             <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/opsgility-logo.png" />
         </p>
