@@ -54,8 +54,8 @@
             <br class="auto-style3" />
             <span class="auto-style5">HTTP Status Code:</span><br class="auto-style1" />
             <asp:DropDownList ID="DropDownList1" runat="server" OnPreRender="DropDownList1_PreRender" CssClass="auto-style1">
-                <asp:ListItem Selected="True" Value="200">200 OK</asp:ListItem>
-                <asp:ListItem Value="503">503 Service Unavailable</asp:ListItem>
+                <asp:ListItem Selected="True" Value="200">200 - Healthy</asp:ListItem>
+                <asp:ListItem Value="201">201 - Degraded</asp:ListItem>
             </asp:DropDownList>
             <asp:Button ID="Button1" runat="server" Text="Update" OnClick="Button1_Click" CssClass="auto-style1" />
             <br />
